@@ -1,0 +1,21 @@
+1.
+	a.
+		i.git init <name(optional>
+		ii. git remote add <name> <url>
+		iii. git checkout -b <branch_name>
+		iv. git push <remotereponame> <local_branch>:<Remote_branch>
+		v. cp/ mkdir etc.
+		vi. git add ., git commit -m "<message>"
+		vii. git pull <remotereponame> <remote_branch>
+		viii. git fetch, git checkout -b <newlocalbranchname> <remotebranch>
+		ix. Checkout does not merge our code in the existing branch, but pull merges the code with remote branch code
+		x. We can handle merge conflicts by opening the merged locations or stash the changes in local branch.
+		xi. By using git merge or by git rebase branches are synchronised.
+	b. Done
+	c.
+		i. git reset --soft HEAD~<number>, git reset --hard HEAD~<number>
+		ii. git stash, git stash pop
+		iii. git rebase <other_branch_name>
+		iv.git log, git status, git reflog.
+	d. Thanks for the guides.  
+		
