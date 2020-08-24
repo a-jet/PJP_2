@@ -1,0 +1,21 @@
+1.Write shell scripts / batch files to list out all the mvn goals available 
+
+We can list all goals bound to a specific phase and their plugins using the command:
+
+mvn help:describe -Dcmd=PHASENAME
+
+
+2.Write shell scripts / batch files to demonstrate leveraging local copy of maven within the 
+project; and a readme.md on how this is beneficial? 
+
+
+
+3. Write shell scripts / batch files to extract & save the build logs to a file instead of console output 
+
+
+mvn <your parameters> --log-file log.txt
+
+4.Write shell scripts / batch files to extract & save the build logs to a file instead of console output 
+
+ mvn clean install --o
+
